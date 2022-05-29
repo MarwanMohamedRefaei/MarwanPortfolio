@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MarwanPortfolio/static/css/main.5df985d4.css",
+    "main.js": "/MarwanPortfolio/static/js/main.80beb695.js",
+    "index.html": "/MarwanPortfolio/index.html",
+    "main.5df985d4.css.map": "/MarwanPortfolio/static/css/main.5df985d4.css.map",
+    "main.80beb695.js.map": "/MarwanPortfolio/static/js/main.80beb695.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5df985d4.css",
+    "static/js/main.80beb695.js"
+  ]
+}
