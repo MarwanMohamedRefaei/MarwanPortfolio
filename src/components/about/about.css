@@ -95,19 +95,31 @@
 }
 
 @media screen and (max-width:600px) {
+    .about__container {
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
     .about__me{
-        width: 65%;
+        width: 275px;
+        height: 313px;
         margin: 0 auto 3rem;
     }
 
+    .about__me-image img{
+        height: 313px;
+         width: 275px;
+    }
     .about__cards{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr ;
         gap: 1rem;
     }
 
     .about__content{
         text-align: center;
+        padding-left: 0rem;
+
     }
+    
 
     .about__content p {
         margin: 1.5rem 0;
