@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import Me from '/assets/2.jpg'
+// import Me from '/assets/2.jpg'
 import { FaAward } from 'react-icons/fa'
 import { FiUsers } from 'react-icons/fi'
 import { VscFolderLibrary } from 'react-icons/vsc'
@@ -13,7 +13,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={Me} alt="about-me" />
+            <img src={process.env.PUBLIC_URL+'/assets/2.jpg'} alt="about-me" />
           </div>
         </div>
 

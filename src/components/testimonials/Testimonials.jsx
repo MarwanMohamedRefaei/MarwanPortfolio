@@ -1,9 +1,9 @@
 import React from 'react'
 import './testimonials.css'
-import AVTR1 from '/assets/avatar1.jpg'
-import AVTR2 from '/assets/avatar2.jpg'
-import AVTR3 from '/assets/avatar3.jpg'
-import AVTR4 from '/assets/avatar4.jpg'
+// import AVTR1 from '/assets/avatar1.jpg'
+// import AVTR2 from '/assets/avatar2.jpg'
+// import AVTR3 from '/assets/avatar3.jpg'
+// import AVTR4 from '/assets/avatar4.jpg'
 
 // import Swiper core and required modules
 import {  Pagination} from 'swiper';
@@ -16,22 +16,22 @@ import 'swiper/css/pagination';
 
 const data =[
   {
-    avatar:AVTR1,
+    avatar:'/assets/avatar1.jpg',
     name:'Tina Snow',
     review:'asdasdas asdasdasdwateys sdyhjhdjgdgfdgfsg dagadfgagdgdsyh adgadyhe ae gtadtgtryeh re y edetg s'
   },
   {
-    avatar:AVTR2,
+    avatar:'/assets/avatar2.jpg',
     name:'Tina Snow',
     review:'asdasdas asdasdasdwateys sdyhjhdjgdgfdgfsg dagadfgagdgdsyh adgadyhe ae gtadtgtryeh re y edetg s'
   },
   {
-    avatar:AVTR3,
+    avatar:'/assets/avatar3.jpg',
     name:'Tina Snow',
     review:'asdasdas asdasdasdwateys sdyhjhdjgdgfdgfsg dagadfgagdgdsyh adgadyhe ae gtadtgtryeh re y edetg s'
   },
   {
-    avatar:AVTR4,
+    avatar:'/assets/avatar4.jpg',
     name:'Tina Snow',
     review:'asdasdas asdasdasdwateys sdyhjhdjgdgfdgfsg dagadfgagdgdsyh adgadyhe ae gtadtgtryeh re y edetg s'
   }

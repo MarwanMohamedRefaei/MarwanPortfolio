@@ -1,18 +1,18 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '/assets/portfolio1.jpg'
-import IMG2 from '/assets/portfolio2.jpg'
+// import IMG1 from '/assets/portfolio1.jpg'
+// import IMG2 from '/assets/portfolio2.jpg'
 
 const data = [
   {
     id: 1,
-    image: IMG1,
+    image: '/assets/portfolio1.jpg',
     title: 'Food Recipe App',
     github: 'https://marwanmohamedrefaei.github.io/FoodApp/',
   },
   {
     id: 2,
-    image: IMG2,
+    image: '/assets/portfolio2.jpg',
     title: 'Movies App',
     github: 'https://marwanmohamedrefaei.github.io/MoviesApp/',
   }
