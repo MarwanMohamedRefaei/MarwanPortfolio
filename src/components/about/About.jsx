@@ -13,7 +13,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={process.env.PUBLIC_URL+Me} alt="about-me" />
+            <img src={Me} alt="about-me" />
           </div>
         </div>
 
