@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/MarwanPortfolio/static/css/main.fb45065a.css",
-    "main.js": "/MarwanPortfolio/static/js/main.1d809b67.js",
+    "main.js": "/MarwanPortfolio/static/js/main.45ab47d5.js",
     "index.html": "/MarwanPortfolio/index.html",
     "main.fb45065a.css.map": "/MarwanPortfolio/static/css/main.fb45065a.css.map",
-    "main.1d809b67.js.map": "/MarwanPortfolio/static/js/main.1d809b67.js.map"
+    "main.45ab47d5.js.map": "/MarwanPortfolio/static/js/main.45ab47d5.js.map"
   },
   "entrypoints": [
     "static/css/main.fb45065a.css",
-    "static/js/main.1d809b67.js"
+    "static/js/main.45ab47d5.js"
   ]
 }
