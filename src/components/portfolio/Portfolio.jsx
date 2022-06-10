@@ -21,6 +21,12 @@ const data = [
     image: '/assets/portfolio3.jpg',
     title: 'Music App',
     github: 'https://marwanmohamedrefaei.github.io/MusicApp/',
+  },
+  {
+    id: 4,
+    image: '/assets/portfolio4.jpg',
+    title: 'Construction App',
+    github: 'https://marwanmohamedrefaei.github.io/StarConstructionApp/',
   }
 
 ]
