@@ -1,6 +1,7 @@
 .experience__container{
     display: grid;
     grid-template-columns: 1fr;
+    gap: 32px;
 }
 
 .experience__container > div{

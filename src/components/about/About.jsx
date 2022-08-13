@@ -13,29 +13,32 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={process.env.PUBLIC_URL+'/assets/2.jpg'} alt="about-me" />
+            <img src={process.env.PUBLIC_URL + '/assets/2.jpg'} alt="about-me" />
           </div>
         </div>
 
         <div className="about__content">
           <div className="about__cards">
             <article className='about__card'>
-              <FaAward className='about__icon'/>
+              <FaAward className='about__icon' />
               <h5>Experience</h5>
-              <small>2+ Years Working</small>
+              <small>2+ Years React (MERN Stack)</small>
             </article>
             <article className='about__card'>
-              <FiUsers className='about__icon'/>
+              <FiUsers className='about__icon' />
               <h5>Courses</h5>
               <small>56+</small>
             </article>
             <article className='about__card'>
-              <VscFolderLibrary className='about__icon'/>
+              <VscFolderLibrary className='about__icon' />
               <h5>Projects</h5>
-              <small>9+ Completed</small>
+              <small>15+ Completed</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed at voluptatum, soluta reiciendis optio quidem cupiditate commodi vel perferendis cum similique ipsa error rerum tempore nesciunt inventore quos distinctio doloremque.</p>
+          <p>Passionate Web Developer with knowledge in various
+            technologies with more than two years experience in
+            React/Node. Seeking an opportunity where i can utilize
+            my skills and knowledge to gain further experience.</p>
           <a href="#contact" className="btn bn-primary">Let's Talk</a>
         </div>
       </div>

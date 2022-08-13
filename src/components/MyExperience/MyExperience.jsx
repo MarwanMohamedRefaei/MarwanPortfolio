@@ -1,5 +1,5 @@
 import React from 'react'
-import './testimonials.css'
+import './MyExperience.css'
 // import AVTR1 from '/assets/avatar1.jpg'
 // import AVTR2 from '/assets/avatar2.jpg'
 // import AVTR3 from '/assets/avatar3.jpg'
@@ -17,26 +17,29 @@ import 'swiper/css/pagination';
 const data =[
   {
     avatar:'/assets/avatar1.jpg',
-    name:'Rob Percival',
-    review:'The Complete Web Development Course 2.0 ( Udemy )'
+    name:'Egypt FWD | 2021',
+    review:'Web development',
+    link:'Credential: WGKVCMWR'
   },
   {
     avatar:'/assets/avatar2.jpg',
-    name:'Maximilian schwarzmuller',
-    review:'React - The Complete Guide ( Udemy )'
+    name:'ITI | 2021',
+    review:'ReactJs',
+    link:'Verification code: BdcQVGf90k'
   },
   {
     avatar:'/assets/avatar3.jpg',
-    name:'Maximilian schwarzmuller',
-    review:'Nextjs & React - The Complete Guide ( Udemy )'
+    name:'ITI | 2021',
+    review:'TypeScript Fundamentals',
+    link:'Verification code: Doez6pkuIo'
   }
 ]
 
-const Testimonials = () => {
+const MyExperience = () => {
   return (
     <section id='testimonials'>
-      <h5>My Study</h5>
-      <h2>Courses</h2>
+      <h5>My Certificates</h5>
+      <h2>Certificates</h2>
 
       <Swiper className="container testimonial__container"
        modules={[Pagination]}
@@ -46,7 +49,7 @@ const Testimonials = () => {
        pagination={{ clickable: true }}
     >
         {
-          data.map(({avatar,name,review},index)=>{
+          data.map(({avatar,name,review,link},index)=>{
             return(
               <SwiperSlide key={index} className='testimonial'>
           {/* <div className="client__avatar">
@@ -55,6 +58,9 @@ const Testimonials = () => {
             <h5 className='client__name'>{name}</h5>
             <small className='client__review'>
              {review}
+            </small>
+            <small className='client__review'>
+             {link}
             </small>
         </SwiperSlide>
             )
@@ -67,4 +73,4 @@ const Testimonials = () => {
   )
 }
 
-export default Testimonials
+export default MyExperience

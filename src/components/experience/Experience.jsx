@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <section id='experience'>
       <h5>What Skills I have</h5>
-      <h2>My Experience</h2>
+      <h2>My Skills</h2>
 
       <div className="container experience__container">
         <div className="experience__frontend">
@@ -29,7 +29,7 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-              <h4>JavaScript - TypeScript - Jquery</h4>
+              <h4>JavaScript - Jquery</h4>
               <small className="text__light">Experienced</small>
               </div>
             </article><article className="experience__details">
@@ -41,13 +41,62 @@ const Experience = () => {
             </article><article className="experience__details">
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-              <h4>React - Redux</h4>
+              <h4>React-Redux/Thunk</h4>
+              <small className="text__light">Experienced</small>
+              </div>
+            </article><article className="experience__details">
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+              <h4>Ajax-FetchApi-Axios</h4>
+              <small className="text__light">Experienced</small>
+              </div>
+            </article><article className="experience__details">
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+              <h4>NextJs</h4>
               <small className="text__light">Experienced</small>
               </div>
             </article>
           </div>
         </div>
-
+        <div className="experience__frontend">
+          <h3>BackEnd Development</h3>
+          <div className="experience__content">
+            <article className="experience__details">
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+              <h4>Node-Express</h4>
+              <small className="text__light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+              <h4>Mongo-SQLServer</h4>
+              <small className="text__light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+              <h4>GraphQL-Apollo</h4>
+              <small className="text__light">Experienced</small>
+              </div>
+            </article><article className="experience__details">
+              <BsPatchCheckFill  className='experience__details-icon'/>
+              <div>
+              <h4>JSON-Server</h4>
+              <small className="text__light">Experienced</small>
+              </div>
+            </article><article className="experience__details">
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+              <h4>Git-Heroku-Vercel</h4>
+              <small className="text__light">Experienced</small>
+              </div>
+            </article>
+          </div>
+        </div>
       </div>
     </section>
   )
