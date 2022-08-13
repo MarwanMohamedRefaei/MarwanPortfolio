@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/MarwanPortfolio/static/css/main.fb45065a.css",
-    "main.js": "/MarwanPortfolio/static/js/main.9760c96f.js",
+    "main.css": "/MarwanPortfolio/static/css/main.d886f856.css",
+    "main.js": "/MarwanPortfolio/static/js/main.4a4bc1d0.js",
     "index.html": "/MarwanPortfolio/index.html",
-    "main.fb45065a.css.map": "/MarwanPortfolio/static/css/main.fb45065a.css.map",
-    "main.9760c96f.js.map": "/MarwanPortfolio/static/js/main.9760c96f.js.map"
+    "main.d886f856.css.map": "/MarwanPortfolio/static/css/main.d886f856.css.map",
+    "main.4a4bc1d0.js.map": "/MarwanPortfolio/static/js/main.4a4bc1d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb45065a.css",
-    "static/js/main.9760c96f.js"
+    "static/css/main.d886f856.css",
+    "static/js/main.4a4bc1d0.js"
   ]
 }
