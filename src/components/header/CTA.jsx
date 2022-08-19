@@ -5,7 +5,7 @@ const CTA = () => {
   return (
       <div className="cta">
           {/* <a href={process.env.PUBLIC_URL+CV} download className='btn'>Download CV</a> */}
-           <a href={process.env.PUBLIC_URL+'/assets/FullStack Software Engineer ( Mern Stack ).pdf'} download className='btn'>Download CV</a>
+           <a href={process.env.PUBLIC_URL+'/assets/Marwan FullStack Developer CV.pdf'} download className='btn'>Download CV</a>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
       </div>
   )
